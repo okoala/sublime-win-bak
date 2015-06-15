@@ -1,0 +1,15 @@
+{
+	"color_scheme": "Packages/Oceanic Next Color Scheme/Oceanic Next.tmTheme",
+	"draw_minimap_border": true,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"rule":
+	[
+		80,
+		120
+	],
+	"theme": "Material-Theme-Darker.sublime-theme"
+}

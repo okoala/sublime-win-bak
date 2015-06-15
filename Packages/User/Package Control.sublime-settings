@@ -1,0 +1,25 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"AutoFileName",
+		"BracketHighlighter",
+		"BufferScroll",
+		"ConvertToUTF8",
+		"CSScomb",
+		"DocBlockr",
+		"EditorConfig",
+		"Emmet",
+		"HTML-CSS-JS Prettify",
+		"Material Theme",
+		"Oceanic Next Color Scheme",
+		"Package Control",
+		"SCSS",
+		"Seti_UI",
+		"SideBarEnhancements",
+		"Swig"
+	]
+}
