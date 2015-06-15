@@ -56,7 +56,7 @@
         "space-before-combinator": " ",
 
         // Set space before `{`.
-        "space-before-opening-brace": "\n",
+        "space-before-opening-brace": " ",
 
         // Set space before selector delimiter.
         "space-before-selector-delimiter": "",
