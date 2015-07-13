@@ -10,19 +10,19 @@
 	"index_exclude_patterns":
 	[
 		"E:\\kulife\\mobile-startkit\\.dist*",
-		"*.log",
 		"E:\\kulife\\mobile-startkit\\node_modules*",
-		"E:\\kulife\\mobile-startkit\\.tmp*"
+		"E:\\kulife\\mobile-startkit\\.tmp*",
+		"*.log"
 	],
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
 	"overlay_scroll_bars": "enabled",
-	"trim_automatic_white_space": true,
-	"trim_trailing_white_space_on_save": true,
 	"rulers":
 	[
 		80,
 		120
 	],
-	"theme": "Material-Theme-Darker.sublime-theme"
+	"theme": "Material-Theme-Darker.sublime-theme",
+	"trim_automatic_white_space": true,
+	"trim_trailing_white_space_on_save": true
 }
