@@ -9,10 +9,10 @@
 	],
 	"index_exclude_patterns":
 	[
-		"E:\\kulife\\mobile-startkit\\.dist*",
-		"E:\\kulife\\mobile-startkit\\node_modules*",
+		"*.log",
 		"E:\\kulife\\mobile-startkit\\.tmp*",
-		"*.log"
+		"E:\\kulife\\mobile-startkit\\node_modules*",
+		"E:\\kulife\\mobile-startkit\\.dist*"
 	],
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,

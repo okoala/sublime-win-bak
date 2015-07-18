@@ -22,6 +22,8 @@
 		"Package Control",
 		"SCSS",
 		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
 		"Swig"
 	]
 }
