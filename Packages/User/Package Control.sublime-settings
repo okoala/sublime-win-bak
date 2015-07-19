@@ -1,6 +1,9 @@
 {
 	"in_process_packages":
 	[
+		"BracketHighlighter",
+		"HTML-CSS-JS Prettify",
+		"Material Theme"
 	],
 	"installed_packages":
 	[
