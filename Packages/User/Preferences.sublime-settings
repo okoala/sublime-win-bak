@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
+	"color_scheme": "Packages/User/Material-Theme.tmTheme",
 	"draw_minimap_border": true,
 	"font_size": 11,
 	"highlight_line": true,
@@ -22,7 +22,7 @@
 		80,
 		120
 	],
-	"theme": "Material-Theme-Darker.sublime-theme",
+	"theme": "Material-Theme.sublime-theme",
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true
 }
