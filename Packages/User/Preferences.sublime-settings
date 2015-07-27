@@ -1,7 +1,7 @@
 {
 	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
 	"draw_minimap_border": true,
-	"font_size": 11,
+	"font_size": 10,
 	"highlight_line": true,
 	"ignored_packages":
 	[
@@ -22,7 +22,7 @@
 		80,
 		120
 	],
-	"theme": "Material-Theme-Darker.sublime-theme",
+	"theme": "Default.sublime-theme",
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true
 }
