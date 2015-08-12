@@ -1,0 +1,6 @@
+{
+  "env": {
+    "PATH": "G:\\go;F:\\Go"
+  },
+  "fmt_cmd": ["goimports"]
+}
