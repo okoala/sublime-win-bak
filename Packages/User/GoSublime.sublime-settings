@@ -1,6 +1,12 @@
 {
-  "env": {
-    "PATH": "E:\\go;G:\\Go"
-  },
-  "fmt_cmd": ["goimports"]
+  	"fmt_cmd": ["goimports"],
+  	"comp_lint_enabled": true,
+  	"comp_lint_commands": [
+        {"cmd": ["golint *.go"], "shell": true},
+        {"cmd": ["go", "vet"]},
+        {"cmd": ["go", "install"]}
+    ],
+    "on_save": [
+        {"cmd": "gs_comp_lint"}
+    ]
 }
