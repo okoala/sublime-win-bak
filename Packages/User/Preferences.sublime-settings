@@ -5,9 +5,9 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
+		"SublimeLinter",
 		"SublimeLinter-contrib-eslint",
-		"Vintage",
-		"SublimeLinter"
+		"Vintage"
 	],
 	"index_exclude_patterns":
 	[

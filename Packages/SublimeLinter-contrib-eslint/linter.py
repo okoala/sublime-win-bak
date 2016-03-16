@@ -13,14 +13,25 @@
 import sublime
 import os
 import re
+import sys
 from SublimeLinter.lint import NodeLinter
+
+
+def screen_path(path):
+    """Make to use path with parentheses on windows while it does not fix in ST itself."""
+
+    if sys.platform in ('win32'):
+        return '"' + path + '"'
+    else:
+        return path
 
 
 class ESLint(NodeLinter):
 
     """Provides an interface to the eslint executable."""
 
-    syntax = ('javascript', 'html', 'javascriptnext', 'javascript (babel)', 'javascript (jsx)', 'jsx-real')
+    syntax = ('javascript', 'html', 'javascriptnext', 'javascript (babel)',
+              'javascript (jsx)', 'jsx-real', 'Vue Component')
     npm_name = 'eslint'
     cmd = ('eslint', '--format', 'compact', '--stdin', '--stdin-filename', '__RELATIVE_TO_FOLDER__')
     version_args = '--version'
@@ -38,7 +49,8 @@ class ESLint(NodeLinter):
     )
     line_col_base = (1, 1)
     selectors = {
-        'html': 'source.js.embedded.html'
+        'html': 'source.js.embedded.html',
+        'vue': 'source.js.embedded.html'
     }
 
     def find_errors(self, output):
@@ -88,9 +100,9 @@ class ESLint(NodeLinter):
                 if 'folder' in vars:
                     relfilename = os.path.relpath(self.filename, vars['folder'])
 
-            cmd[cmd.index('__RELATIVE_TO_FOLDER__')] = relfilename
+            cmd[cmd.index('__RELATIVE_TO_FOLDER__')] = screen_path(relfilename)
 
         elif not code:
-            cmd.append(self.filename)
+            cmd.append(screen_path(self.filename))
 
         return super().communicate(cmd, code)

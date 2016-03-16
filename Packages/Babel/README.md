@@ -1,5 +1,7 @@
 # babel-sublime
 
+> Only supports **Sublime Text 3**. Sublime Text 2 is no longer supported.
+
 Language definitions for [ES6+ JavaScript](http://kangax.github.io/compat-table/es6/) with [React JSX syntax](http://facebook.github.io/react/docs/jsx-in-depth.html) extensions.
 
 ## Installation
@@ -35,10 +37,6 @@ It's possible to set `Babel` as the _only_ JavaScript package by disabling the s
 ![babel-sublime-vs-sublime-react--jsx-comments-etc](https://raw.githubusercontent.com/babel/babel-sublime/9a6e85f/screenshots/compare-jsx-comments-etc@2x.png)
 
 * `babel-sublime` correctly matches JSX comments between attributes, namespaced components, and non-alpha characters in tag/attribute names.
-
-![babel-sublime-vs-sublime-react--jsx-illegal](https://raw.githubusercontent.com/babel/babel-sublime/9a6e85f/screenshots/compare-jsx-illegal@2x.png)
-
-* Illegal JSX attribute names; missing equals, quotes or braces; and missing values, are highlighted to easily spot mistakes.
 
 ![babel-sublime-vs-sublime-react--jsx-tight](https://raw.githubusercontent.com/babel/babel-sublime/9a6e85f/screenshots/compare-jsx-tight@2x.png)
 

@@ -1,4 +1,5 @@
 {
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
@@ -15,10 +16,6 @@
 		"DocBlockr",
 		"EditorConfig",
 		"Emmet",
-		"Godef",
-		"GoGdb",
-		"GoImports",
-		"GoSublime",
 		"HTML-CSS-JS Prettify",
 		"HTMLBeautify",
 		"JavaScriptNext - ES6 Syntax",
